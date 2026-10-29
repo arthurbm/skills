@@ -12,7 +12,7 @@ A good Lesson leaves the learner able to produce the win in its `LessonHeader` a
 
 ## Sources and citations
 
-- Every important claim from a source appears in a quote block (`Book`) with the literal excerpt, section and page. A bare "(Author, p. 87)" counts only as a complement to something already shown.
+- Every important claim from a source appears in a quote block (`Book`) with the literal excerpt and its locator from `sources/`: section and page for a book, timestamp for a video, section anchor for a web page. A bare "(Author, p. 87)" counts only as a complement to something already shown.
 - Every fact about a real tool, product, standard or practice has a source in `sources/` or `RESOURCES.md`. An unchecked fact is cut or marked as unverified.
 - Pages, sections and quotes match `sources/`. Text in quotation marks is literal; paraphrase goes without them.
 - The Lesson recommends one primary source to read or watch next: the best one in `RESOURCES.md` for this subject.
@@ -33,7 +33,7 @@ A good Lesson leaves the learner able to produce the win in its `LessonHeader` a
 ## Practice
 
 - **Quiz**: 3 or 4 questions. Options stay within one word of each other in length, and the correct one is neither consistently the longest nor the shortest. The correct position varies across questions, and formatting and order carry no clue. Each `why` explains the typical mistake.
-- **Recall**: 2 or 3 questions answered from memory, each with a model answer. At least one brings back an earlier Lesson (spacing). When the mission includes defending choices (an exam, a design review, an interview), at least two take the form "why did you do it this way?" or "what would the alternative be?", and the model answer justifies, cites the source and weighs the alternative's trade-off.
+- **Recall**: 2 or 3 questions answered from memory, each with a model answer. When earlier Lessons exist, at least one brings one of them back (spacing). When the mission includes defending choices (an exam, a design review, an interview), at least two take the form "why did you do it this way?" or "what would the alternative be?", and the model answer justifies, cites the source and weighs the alternative's trade-off.
 - **Doing part**: something concrete in the learner's project, taken from the mission. Each decision the Lesson raises for that project becomes a `Decision` card whose "Record" line points to where the project keeps it.
 
 ## Language
