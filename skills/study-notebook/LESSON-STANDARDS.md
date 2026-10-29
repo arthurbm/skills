@@ -8,7 +8,7 @@ A good Lesson leaves the learner able to produce the win in its `LessonHeader` a
 
 - Follows the source's **arc**, in its order and with its examples (from `sources/`), retold in the learner's language. Every central concept reaches its _why_: a Lesson that lets the learner place an idea without being able to explain it has failed.
 - When the mechanism has a formal reason (a short proof, a counting argument, a termination argument), it appears in short numbered steps.
-- **Just in time**: every prerequisite concept the Lesson uses without being about it appears in a theory `Callout` at the moment of use, with what it is, a small example and why it matters here. The Lesson's own subject gets sections, not a box. The Callouts stay the minimum the Lesson needs, never a parallel course.
+- **Just in time**: every prerequisite concept the Lesson uses without being about it appears in a `Callout kind="theory"` at the moment of use, with what it is, a small example and why it matters here. The Lesson's own subject gets sections, not a box. The Callouts stay the minimum the Lesson needs, never a parallel course.
 
 ## Sources and citations
 
@@ -34,7 +34,7 @@ A good Lesson leaves the learner able to produce the win in its `LessonHeader` a
 
 - **Quiz**: 3 or 4 questions. Options stay within one word of each other in length, and the correct one is neither consistently the longest nor the shortest. The correct position varies across questions, and formatting and order carry no clue. Each `why` explains the typical mistake.
 - **Recall**: 2 or 3 questions answered from memory, each with a model answer. When earlier Lessons exist, at least one brings one of them back (spacing). When the mission includes defending choices (an exam, a design review, an interview), at least two take the form "why did you do it this way?" or "what would the alternative be?", and the model answer justifies, cites the source and weighs the alternative's trade-off.
-- **Doing part**: something concrete in the learner's project, taken from the mission. Each decision the Lesson raises for that project becomes a `Decision` card whose "Record" line points to where the project keeps it.
+- **Doing part**: something concrete in the learner's project, taken from the mission. Ties between the Lesson and that project sit in a `Callout kind="project"`. Each decision the Lesson raises for that project becomes a `Decision` card whose "Record" line points to where the project keeps it.
 
 ## Language
 

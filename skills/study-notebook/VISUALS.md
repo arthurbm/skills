@@ -13,7 +13,7 @@ Name the motion's purpose before building it: **explanation** (how the process r
 ## Design rules
 
 1. **Learner-paced.** The process is cut into discrete steps, and the learner advances them (step, back, reset). Each step stops and waits. Play is an optional extra and always has pause. People conceive of events as sequences of discrete steps, and learners who pace a segmented explanation themselves transfer it better.
-2. **Predict, then reveal.** At least once per Visual, the learner commits to a prediction (the next state, which branch is taken, the output) before the Visual shows it, and the Visual says whether the prediction held.
+2. **Predict, then reveal.** At least once per Visual, the learner commits to a prediction (the next state, which branch is taken, the output) before the Visual shows it: inside the Visual, which then says whether the prediction held, or in a `Quiz` or `Recall` placed right before the step that reveals it.
 3. **Change the input.** The learner edits the input or picks among cases. The presets are the exact examples from `sources/`, plus the boundary case and the case behind the most common misconception.
 4. **Congruent.** What moves on screen corresponds to what changes in the concept, and only that moves. Every arrow, label and colour is true to the relation it shows.
 5. **Persistent.** Animation is transient: the learner cannot reread a frame that has passed. After each step, the current state and the trace of earlier steps stay on screen, and the final state is a complete picture the learner can read at rest.
@@ -33,13 +33,3 @@ These are the floor. When an animation skill is available, load it before writin
 - **Interruptible.** Steps fire rapidly, so they use transitions, which retarget from the current value. Clicking "next" mid-transition lands on the next state cleanly.
 - **Reduced motion.** Under `prefers-reduced-motion`, every step still works: movement becomes an opacity change or an instant swap, and the trace and caption carry the change.
 - **Touch.** Hover effects sit behind `@media (hover: hover) and (pointer: fine)`. Tap does everything hover does.
-
-## Sources
-
-- Bret Victor, [Explorable Explanations](https://worrydream.com/ExplorableExplanations/) (2011): active reading, explorable examples.
-- C. D. Hundhausen, S. A. Douglas and J. T. Stasko, "A Meta-Study of Algorithm Visualization Effectiveness", _Journal of Visual Languages and Computing_ 13 (2002), 259–290: how learners engage with a visualization matters more than what it shows. T. L. Naps et al. (ITiCSE 2002 working group) turned this into an engagement taxonomy, from viewing through responding, changing and constructing.
-- B. Tversky, J. B. Morrison and M. Bétrancourt, "Animation: can it facilitate?", _International Journal of Human-Computer Studies_ 57 (2002), 247–262: the congruence and apprehension principles, and interactivity as the remedy.
-- T. N. Höffler and D. Leutner, "Instructional animation versus static pictures: A meta-analysis", _Learning and Instruction_ 17(6) (2007), 722–738: animations help most when they are representational, depicting the change to be learned.
-- R. E. Mayer and P. Chandler, "When learning is just a click away", _Journal of Educational Psychology_ 93 (2001), 390–397: learner-paced segments improve transfer. Mayer's _Multimedia Learning_ gives the segmenting, signaling, coherence and contiguity principles.
-- P. Ayres and F. Paas, "Making instructional animations more effective: a cognitive load approach", _Applied Cognitive Psychology_ 21(6) (2007), 695–700: the transient information effect.
-- Motion craft follows [Emil Kowalski](https://emilkowal.ski)'s animation philosophy ([animations.dev](https://animations.dev)).

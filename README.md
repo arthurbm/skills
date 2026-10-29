@@ -1,6 +1,6 @@
 # skills
 
-Agent skills by Arthur Brito Medeiros, in the [Agent Skills](https://skills.sh) format: each skill is a folder with a `SKILL.md` that agents such as Claude Code, Codex and Cursor load on demand.
+Agent skills by Arthur Brito Medeiros, in the [Agent Skills](https://skills.sh) format: each skill is a folder with a `SKILL.md` for agents such as Claude Code, Codex and Cursor.
 
 ## Install
 
