@@ -68,7 +68,7 @@ The same steps serve a new Lesson and a revision. Write to pass [LESSON-STANDARD
 3. **Visual.** Read the Notebook's existing Visuals first, and extend one with a prop when it fits; write a new one when none does. Build it to [VISUALS.md](./VISUALS.md). _Done when_ a Visual of the Lesson's central mechanism passes every rule in `VISUALS.md`.
 4. **Write.** Build the page from the Notebook's Blocks, following the source's **arc** in its order. In the same change, add the page to the sidebar, update the plan, and update every Reference that collects something from each Lesson (a question bank, a map of real-world tools). _Done when_ the page and each of those updates are in the diff.
 5. **Review.** Run the Notebook's build. Open the page on a local server with a browser automation tool (such as `agent-browser`) and click every Visual and every Block through to the end, in both themes, at 400×860 and at 1300×900. Then dispatch a reviewer subagent with the Lesson, `LESSON-STANDARDS.md`, `VISUALS.md`, `NOTES.md` and `sources/`; it applies every rule and lists each violation with the excerpt and a fix. _Done when_ the build is clean, nothing in the browser was cut off, illegible or ambiguous, and every reviewer item is fixed.
-6. **Publish.** Deploy the Notebook, commit in the workspace git, and send the learner the Lesson's link. _Done when_ the published URL serves the new Lesson.
+6. **Publish.** Deploy the Notebook to its existing deploy target, named explicitly in the command, commit in the workspace git, and send the learner the Lesson's link. _Done when_ the published URL serves the new Lesson, and, for a private Notebook, that URL still asks for login.
 
 ## References
 
