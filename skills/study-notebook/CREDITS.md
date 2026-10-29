@@ -5,10 +5,10 @@
 What changed:
 
 - **Lessons are published in a Notebook** (a site of MDX pages with interactive Blocks and Visuals, a sidebar and a plan page) instead of standalone HTML files in `./lessons/`, `./reference/` and `./assets/`. The skill's terms (Notebook, Lesson, Reference, Block, Visual) are defined once, with Portuguese equivalents.
-- **Model-invoked** instead of user-invoked, so the agent reaches the skill when a study session starts.
 - **Session flow** (start, detours, end) with completion criteria, and **Building a Lesson** as ordered steps: primary-source extraction by a background subagent, plan, Visual, write, review in a browser and by a reviewer subagent, publish.
 - **New files**: `LESSON-STANDARDS.md` (the quality bar the reviewer applies: the source's arc and the _why_, just-in-time prerequisites, literal quotes with pages, an interactive Visual, retrieval practice with Quiz and Recall), `SOURCES-FORMAT.md` (the `sources/` extraction that citations come from) and `NOTES-FORMAT.md` (the learner profile, which now holds the learner's preferences and outranks the skill's defaults, plus a format history).
 - **Carried-over formats**, lightly edited: learning preferences moved from `MISSION.md` constraints to the profile in `NOTES.md`; `RESOURCES.md` entries record local paths and page offsets; `GLOSSARY.md` is written in the learner's language and points to the skill's own terms.
+- **`VISUALS.md`**: the rules for explorable Visuals (learner-paced steps, predict-then-reveal, congruent and persistent motion), drawn from the learning-science sources it lists, with motion craft following [Emil Kowalski](https://emilkowal.ski)'s animation philosophy.
 - **Scaffolding a Notebook** is a pending section, to be extracted from a real Notebook built on Fumadocs and Next.js.
 
 The upstream license:

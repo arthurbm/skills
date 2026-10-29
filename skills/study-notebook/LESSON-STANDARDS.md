@@ -19,9 +19,7 @@ A good Lesson leaves the learner able to produce the win in its `LessonHeader` a
 
 ## Visual
 
-- At least one interactive Visual of the central mechanism, which the learner operates: step forward, change the input, switch between cases.
-- Works at 400 px wide and in both themes: legible text, nothing cut off, every arrow and label true to the relation it shows.
-- Motion serves a purpose: it explains, shows state, or shows where something came from.
+- At least one Visual of the central mechanism, passing every rule in [VISUALS.md](./VISUALS.md); cite violations by rule number.
 
 ## Format
 
