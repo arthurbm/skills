@@ -86,6 +86,6 @@ The teaching side relies on a Notebook that provides:
 
 The Notebook itself is the source of truth for where each of these lives: its README, its `package.json` scripts and its MDX component registry. The Block names in `LESSON-STANDARDS.md` are those of the Notebook this skill scaffolds; a Notebook with other names maps them by role.
 
-### Creating a Notebook (pending)
+### Creating a Notebook
 
-This side of the skill is pending. It will be extracted from a real Notebook migration to Fumadocs on Next.js once that migration is done. Until then, when the workspace has no Notebook, tell the learner that scaffolding is not written yet and ask how they want to proceed.
+When the workspace has no Notebook, scaffold one with [NOTEBOOK-SCAFFOLD.md](./NOTEBOOK-SCAFFOLD.md): Fumadocs on Next.js as a static site, from creation to deploy. It also names what a scaffolded Notebook leaves still to build: the Block library, the declared page id, References and login for a private Notebook.

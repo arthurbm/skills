@@ -9,7 +9,7 @@ What changed:
 - **New files**: `LESSON-STANDARDS.md` (the quality bar the reviewer applies: the source's arc and the _why_, just-in-time prerequisites, literal quotes with pages, an interactive Visual, retrieval practice with Quiz and Recall), `SOURCES-FORMAT.md` (the `sources/` extraction that citations come from) and `NOTES-FORMAT.md` (the learner profile, which now holds the learner's preferences and outranks the skill's defaults, plus a format history).
 - **Carried-over formats**, lightly edited: learning preferences moved from `MISSION.md` constraints to the profile in `NOTES.md`; `RESOURCES.md` entries record local paths and page offsets; `GLOSSARY.md` is written in the learner's language and points to the skill's own terms.
 - **`VISUALS.md`**: the rules for explorable Visuals (learner-paced steps, predict-then-reveal, congruent and persistent motion), drawn from the learning-science sources it lists, with motion craft following [Emil Kowalski](https://emilkowal.ski)'s animation philosophy.
-- **Scaffolding a Notebook** is a pending section, to be extracted from a real Notebook built on Fumadocs and Next.js.
+- **Scaffolding a Notebook** (`NOTEBOOK-SCAFFOLD.md`): a recipe extracted from a real Notebook built on Fumadocs and Next.js, from creation to deploy. The Block library, the declared page id, References and login for a private Notebook are still to build.
 
 The upstream license:
 
